@@ -83,16 +83,6 @@ aside {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* .page-header-wildlife img {
-  display: block;
-  object-fit: cover;
-  object-position: center;
-  position: relative;
-  margin: 0 auto;
-  height: 50vh;
-  width: 100%;
-} */
-
 .page-header h1 {
   font-family: "Changa One", sans-serif;
   font-weight: 200;
@@ -223,6 +213,11 @@ aside {
   padding: 1rem;
 }
 
+.video-culture {
+  padding-top: 2rem;
+  object-fit: cover;
+}
+
 @media (min-width: 50em) {
   .grid-container img {
     max-width: 50%;
@@ -244,6 +239,13 @@ aside {
     gap: 3rem;
     padding: 5rem;
   }
+
+  .video-culture {
+    padding-top: 2rem;
+    object-fit: cover;
+    width: 80%;
+    display:block;
+    margin: 0 auto;
 }
 
 /* .flex-images {
