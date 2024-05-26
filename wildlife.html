@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
+	<title>Australia | A Glimpse into the Wonders of the Down Under</title>
+	<meta name="description" content="Learn About the Many Wonders of the Country of Australia">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>Australia</title>
@@ -20,14 +22,16 @@
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="styles/normalize-fwd.css">
-	<link rel="stylesheet" href="styles/new-styles.css">
-	<script src="scripts/navigation.js" defer></script>
+	<link rel="stylesheet" href="styles/styles.css">
+	<script defer src="scripts/navigation.js"></script>
 
 </head>
 
 <body class="wildlife">
 
 	<div class="site-wrapper">
+
+		<a class="screen-reader-text" href="#wildlife">Skip to content</a>
 	
 		<header class="site-header">
 			<nav class="site-navigation" id="site-navigation">
@@ -40,9 +44,9 @@
 				</button>
 
 				<ul class="nav-menu" id="header-menu">
-					<li><a href="#index.html">Home</a></li>
-					<li><a href="#history.html">Wildlife</a></li>
-					<li><a href="#culture.html">Culture</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="wildlife.html">Wildlife</a></li>
+					<li><a href="culture.html">Culture</a></li>
 					<li><a href="#credits.html">Credits</a></li>
 				</ul>
 
@@ -50,32 +54,43 @@
 		</header>
 
 
-			<main>
+			<div>
 
 			<header class="page-header">
 				<h1>Wildlife</h1>
-				<img src="images/koala.jpg" alt="image of a kangaroo looking at th camera">
+				<img src="images/koala.jpg" alt="Image of a Koala">
 			</header>
 
+<blockquote class="quote-wildlife">
+	<h3>"The single biggest threat to our planet is the destruction of habitat and along the way, we've lost sight of the fact that wildlife and habitats are the very things that keep us alive."</h3>
+	<footer>Source: <cite>Steve Irwin</cite></footer>
+</blockquote>
 
 <!-- This is a flex box for the images on desktop -->
 	<div class="container-wildlife">
 		<div><img src="images/colourful-bird.jpg" alt="Colourful blue, red and green bird"></div>
-		<div><img src="images/lizard.jpg" alt="Lizard sitting on a rock"></div>
+		<div><img src="images/lizard.jpg" alt="A lizard sitting on a rock"></div>
 		<div><img src="images/kangaroo-image.jpg" alt="Cute kangaroo looking at the camera"></div>
+		<div><img src="images/Dingo-2.jpg" alt="Dingo Sitting on a Beach"></div>
 	</div> 
 
 
-	<form class="form">
+<div class = "wildlife-text">
+	<p>Australia's wildlife dances with diversity, offering a kaleidoscope of creatures to marvel at. From the endearing koalas munching eucalyptus leaves to the rainbow-hued parrots filling the air with their chatter, every encounter is a vibrant adventure. Meet the resilient dingos, guardians of the rugged outback, and witness the iconic kangaroos gracefully bounding through the bush.</p>
+</div>
+
+
+	<div class="form-container">
+	<form>
 		<h2>Support the Australian Wildlife!</h2>
 		<p>Stay connected and find out how you can help care for the gorgeous and exotic animals of Australia!</p>
 		<label for="name">Name:</label>
 		<input type="text" id="name" name="name"><br><br>
-	
 		<label for="email">Email:</label>
 		<input type="email" id="email" name="email"><br><br>
 		<input type="submit" value="Submit">
 	</form>
+	</div>
 
 
 	</main>

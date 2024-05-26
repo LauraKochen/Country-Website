@@ -28,9 +28,9 @@ h2 {
 }
 
 h3 {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2rem;
 }
 
 h4 {
@@ -70,6 +70,20 @@ aside {
 }
 
 .wildlife .page-header::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.culture .page-header::after {
   content: "";
   display: block;
   position: absolute;
@@ -218,6 +232,41 @@ aside {
   object-fit: cover;
 }
 
+.wildlife-text {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.wildlife-text p {
+  text-align: left;
+}
+
+.culture-text {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.culture-paragraph {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2;
+  text-align: center;
+}
+
+.form-container {
+  display: inline-block;
+  /* width: 50%;
+  margin: 0 auto; */
+  padding: 1em;
+  border: 1rem;
+  border-color: #282828;
+  border-radius: 1em;
+}
+
 @media (min-width: 50em) {
   .grid-container img {
     max-width: 50%;
@@ -240,34 +289,43 @@ aside {
     padding: 5rem;
   }
 
+  .quote-wildlife {
+    text-align: center;
+    padding-top: 2rem;
+    width: 30%;
+    margin: 0 auto;
+  }
+
   .video-culture {
     padding-top: 2rem;
     object-fit: cover;
     width: 80%;
-    display:block;
+    display: block;
     margin: 0 auto;
-}
+  }
 
-/* .flex-images {
-  display: flex;
+  .culture-paragraph {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    text-align: center;
+  }
 }
-
-.flex-text {
-  display: flex;
-}
-
-.item {
-  flex: 1;
-  padding: 1rem; */
 
 @media (min-width: 50em) {
   img {
     min-width: 100%;
   }
-}
 
-.form {
-  padding-left: 2rem;
+  .form-container {
+    display: inline-block;
+    /* width: 50%;
+    margin: 0 auto; */
+    padding: 1em;
+    border: 1rem;
+    border-radius: 1em;
+    border-color: #282828;
+  }
 }
 
 /* Footer Here */
@@ -290,5 +348,3 @@ aside {
     padding: 2rem;
   }
 }
-
-/* Culture */
