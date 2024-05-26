@@ -1,80 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <!-- <meta name="Australia" content="A complete guide to the" -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Australia</title>
-    <link rel="stylesheet" href="styles/normalize-fwd.css">
-    <link rel="stylesheet" href="styles/new-styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
-    
-    <script src="scripts/navigation.js" defer></script>
+	<title>Australia | A Glimpse into the Wonders of the Down Under</title>
+	<meta name="description" content="Learn About the Many Wonders of the Country of Australia">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Australia</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="styles/normalize-fwd.css">
+	<link rel="stylesheet" href="styles/styles.css">
+	<script defer src="scripts/navigation.js"></script>
 
 </head>
 
-<body>
+<body >
 
-    <!-- <nav class="header-main"> -->
-
-        <div class="site-wrapper">
+	<div class="site-wrapper">
 	
-            <header class="site-header">
+		<a class="screen-reader-text" href="#index">Skip to content</a>
+
+		<header class="site-header">
+			<nav class="site-navigation" id="site-navigation">
+
+				<button class="menu-toggle" aria-controls="header-menu" aria-expanded="false" aria-label="Menu Toggle">
+					<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
+						<title>Menu Icon</title>
+						<path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"></path>
+					</svg>
+				</button>
+
+				<ul class="nav-menu" id="header-menu">
+					
+					<li><a href="index.html">Home</a></li>
+					<li><a href="wildlife.html">Wildlife</a></li>
+					<li><a href="culture.html">Culture</a></li>
+					<li><a href="#credits.html">Credits</a></li>
+				</ul>
+
+			</nav>
+		</header>
 
 
-                <a href="index.html" class="site-name">
+			<main>
 
-                </a>
-    
-                <nav class="site-navigation" id="site-navigation">
-    
-                    <button class="menu-toggle" aria-controls="header-menu" aria-expanded="false" aria-label="Menu Toggle">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
-                            <title>Australia</title>
-                            <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"></path>
-                        </svg>
-                    </button>
-    
-                    <ul class="nav-menu" id="header-menu">
-                        <li><a href="Culture.html">Culture</a></li>
-                        <li><a href="Cuisine.html">Cuisine</a></li>
-                        <li><a href="about-us.html">About</a></li>
-                        <li><a href="Credits.html">Credits</a></li>
-                    </ul>
-    
-                </nav>
+			<header class="page-header">
+				<h1>Australia</h1>
+				<img src="images/australia-vista.jpg" alt="Australian vista">
+			</header>
 
-            </header>
+			
 
-<main class="site-main">
+<!-- THIS IS MY FLEXBOX content - change to something else since I made it into a grid YAYAYAYAYAYAYYA -->
 
-    <header class="page-header">
-        <h1>Australia</h1>
-        <img src="images/australia-vista.jpg" alt="Australian mountains and water">
+			<!-- this is the code for my flexbox -->
+<!-- <div class="container">
+		<div><img src="images/australia-aboriginies.jpg" alt=""></div>
+		<div><img src="images/australia-uluru.jpg" alt=""></div>
+		<div><img src="images/kangaroo-feeding.jpg" alt=""></div>
 
-    </header>
-
-<!-- this is the below portion -->
+</div> -->
 
 
-  <div class="grid-container">
-    <div class="grid-item">
-    <img src="images/australia-aboriginies.jpg" alt="Image 1">
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente deserunt harum earum, hic sequi quam omnis eligendi? Ducimus hic eum ad blanditiis! Ad, a! Totam ipsam accusamus laboriosam iusto. Assumenda!</p>
-    </div>
-    <div class="grid-item">
-      <img src="images/australia-uluru2.jpg" alt="Image 2">
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam earum impedit optio nihil! Quidem consequatur enim fugit, dolores aut voluptatem voluptatum quibusdam consectetur nisi minima debitis animi deleniti doloremque veniam.</p>
-    </div>
-    <div class="grid-item">
-      <img src="images/kangaroo-feeding.jpg" alt="Image 3">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quasi iste aut dicta voluptates modi perspiciatis, expedita similique dolorem animi veniam inventore, illo, optio rerum libero aliquam error illum eos!</p>
-    </div>
-  </div>
+<!-- 
+below is for desktop grid container!!!! don't delete -->
 
-  </main>
+<div class="grid-container">
+	<figure>
+		<a href="culture.html"><img src="images/didgeridoo.jpg" alt="Australian aboriginal playing a didgeridoo"></a>
+		<h2>Culture</h2>
+		<figcaption>
+			Australia's culture blends Indigenous traditions with diverse immigrant influences, reflected in art, sports, cuisine, music, and laid-back lifestyle.</figcaption>
+	</figure>
+	
+	<figure>
+		<a href="wildlife.html"><img src="images/kangaroo-feeding.jpg" alt="A kangaroo eating out of a man's hand"></a>
+		<h2>Wildlife</h2>
+		<figcaption>
+			Australia's wildlife is renowned for unique species like kangaroos, koalas, and platypuses, alongside deadly creatures like snakes and spiders. </figcaption>
+	</figure>
+
+	<figure>
+		<a href="credits.html"><img src="images/australia-uluru.jpg" alt="Uluru Rock in the Australian outback"></a>
+		<h2>Credits</h2>
+		<figcaption>
+			Explore our webpage's credits for acknowledgment of contributors, sources, and resources that have enriched our content and platform.</figcaption>
+	</figure>
+	
+</div>
+
+<br>
+
+		</main>
+
+		<footer class="site-footer">
+			<p class="footer-size ">&copy; Laura Kochen 2024</p>
+
+	</div>
 
 </body>
-      
+</html>
