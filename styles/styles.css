@@ -328,6 +328,26 @@ aside {
   }
 }
 
+.section-credits-table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 4rem;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #c9d8d5;
+  text-align: left;
+  gap: 10rem;
+}
+.section-credits-table a,
+.section-credits-table a:visited {
+  color: rgb(10, 10, 10);
+}
+.section-credits-table a:hover,
+.section-credits-table a:active,
+.section-credits-table a:focus {
+  background-color: rgb(214, 119, 30);
+}
 /* Footer Here */
 
 .site-footer {
